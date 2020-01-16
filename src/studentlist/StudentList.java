@@ -64,7 +64,7 @@ public class StudentList {
         System.out.println("Now we print them out");
         
         for (Student student: studentList) {
-            System.out.println(student.getName(),student.getAddress());
+            System.out.printf(student.getName(),student.getAddress());
         }
         
     }
